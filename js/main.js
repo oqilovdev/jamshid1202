@@ -1,60 +1,9 @@
 
-document.addEventListener("click",function cilic(){
+document.addEventListener("click",()=>{
     document.querySelector(".do")
     audio = new Audio("./audio/do.mp3")
 })
-document.addEventListener("click",function cilic(){
-    document.querySelector(".re")
-    audio = new Audio("./audio/re.mp3")
-})
-document.addEventListener("click",function cilic(){
-    document.querySelector(".mi")
-    audio = new Audio("./audio/mi.mp3")
-})
-document.addEventListener("click",function cilic(){
-    document.querySelector(".fa")
-    audio = new Audio("./audio/fa.mp3")
-})
-document.addEventListener("click",function cilic(){
-    document.querySelector(".sol")
-    audio = new Audio("./audio/sol.mp3")
-})
-document.addEventListener("click",function cilic(){
-    document.querySelector(".liya")
-    audio = new Audio("./audio/lja.mp3")
-})
-document.addEventListener("click",function cilic(){
-    document.querySelector(".si")
-    audio = new Audio("./audio/si.mp3")
-})
-document.addEventListener("click",function cilic(){
-    document.querySelector(".do")
-    audio = new Audio("./audio/do.mp3")
-})
-document.addEventListener("click",function cilic(){
-    document.querySelector(".do")
-    audio = new Audio("./audio/do.mp3")
-})
-document.addEventListener("click",function cilic(){
-    document.querySelector(".do")
-    audio = new Audio("./audio/do.mp3")
-})
-document.addEventListener("click",function cilic(){
-    document.querySelector(".do")
-    audio = new Audio("./audio/do.mp3")
-})
-document.addEventListener("click",function cilic(){
-    document.querySelector(".do")
-    audio = new Audio("./audio/do.mp3")
-})
-document.addEventListener("click",function cilic(){
-    document.querySelector(".do")
-    audio = new Audio("./audio/do.mp3")
-})
-document.addEventListener("click",function cilic(){
-    document.querySelector(".do")
-    audio = new Audio("./audio/do.mp3")
-})
+
 document.addEventListener("keyup",(e)=>{
     if (e.key==="q") {
         document.body.style.background = "blue";
