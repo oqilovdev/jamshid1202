@@ -2,6 +2,7 @@
 document.addEventListener("click",()=>{
     document.querySelector(".do")
     audio = new Audio("./audio/do.mp3")
+    audio.play()
 })
 
 document.addEventListener("keyup",(e)=>{
